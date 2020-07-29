@@ -1,0 +1,3 @@
+Hello,
+Dataset for the facial emotion recognition can be found in the kaggle under the link 
+https://www.kaggle.com/ashishbansal23/emotion-recognition
