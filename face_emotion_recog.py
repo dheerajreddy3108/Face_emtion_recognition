@@ -65,7 +65,7 @@ img_labels = k.to_categorical(img_labels)
 
 #Data Splitting
 
-X_train,X_test,y_train,y_test = train_test_split(img_ar,img_labels,shuffle=True,random_state=123)
+X_train,X_test,y_train,y_test = train_test_split(img_ar,img_labels,test_size=0.2,shuffle=True,random_state=123)
 
 #Image Shape 
 img_width = X_train.shape[1]
